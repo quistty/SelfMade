@@ -1,0 +1,26 @@
+{
+  "name": "selfmade",
+  "version": "1.0.0",
+  "description": "A project setup with Node.js, Express, MongoDB, and user authentication using JWT.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.7.3",
+    "supertest": "^6.3.3"
+  }
+}
